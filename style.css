@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: rgb(99, 88, 88);
+    border: none;
+    width: 120px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+
+
+}
+.shadow_header{
+    height: 500px;
+    background-color: black;
+    opacity: 0.74;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+
+.heading{
+    display: flex;
+    background-image: url(disastar_photos/header-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+    
+}
+.name{
+    color: white;
+    position:absolute;
+    font-size: 45px;
+    padding: 173px 442px;
+
+    
+}
+.search{
+    position: absolute;
+    right: 15px;
+    padding: 15px 1px;
+}
+
+.flex{
+    background-color: rgb(11, 10, 8);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info{
+
+    
+    font-size: large;
+    padding: 25px;
+    border-radius: 6px;
+    color: white;
+     
+}
+
+.pic{
+  width: 366px;
+  border-radius: 55px;
+  margin-top: 4px;
+  box-shadow: 5px 5px 5px black;
+  
+  
+}
+.earthquake{
+    background-color: rgb(11, 10, 8);
+}
+
+.drought{
+    background-color: rgb(11, 10, 8);
+}
+.navbar{
+    background-color: rgba(12, 10, 9, 0.135);
+    padding: 15px 25px;
+    height: 30px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar ul li{
+    padding: 4px;
+    
+}
+
+.space{
+    height: 355px;
+}
+.founder_info{
+    color: rgb(219, 212, 212);
+    background-color: rgb(7, 7, 13);
+    display: flex;
+    height: 195px;
+    justify-content: space-around;
+    padding: 19px;
+
+
+}
+.founder{
+    background-color: rgba(39, 89, 89, 0.434);
+    height: 95px;
+    width: 399px;
+    padding: 55px;
+    border-radius: 45px;
+
+}
+
